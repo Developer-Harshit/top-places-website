@@ -1,0 +1,27 @@
+body {
+  background-color: cornsilk;
+  font-family: 'Quicksand';
+}
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+#logo {
+  margin: 0px;
+  text-shadow:1px 1px 1px blue ;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin-left: 10px;
+}
+
+/* font-family: "Raleway", sans-serif; */
+
