@@ -1,38 +1,28 @@
-body {
-  background-color: cornsilk;
-  font-family: "Quicksand";
-  color: whitesmoke;
-}
-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-#logo {
-  margin: 0px;
-  text-shadow: 1px 1px 1px blue;
-  font-family: "Montserrat", sans-serif;
-  text-transform: none;
-}
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  flex-direction: row;
-}
-li {
-  margin-left: 10px;
-}
-
 /* font-family: "Raleway", sans-serif; */
 
 #her {
-  height: 800px;
-  width: auto;
+  min-height: 700px;
+  min-width: auto;
 }
 #image {
   background-image: url(/images/ocean.jpg);
   background-position: center;
-  background-size:cover ;
+  background-size: cover;
+}
+#her-mat {
+  width: 900px;
+  background-color: #04090a72;
+  box-shadow: 2px 6px 5px #1c2628bf;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  font-size: larger;
+
+  padding: 10px 0px;
+  margin: 0px auto;
+  position: relative;
+  top:225px;
+}
+a {
+  color: whitesmoke;
 }
