@@ -1,6 +1,7 @@
 body {
   background-color: cornsilk;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
+  color: whitesmoke;
 }
 header {
   display: flex;
@@ -9,8 +10,9 @@ header {
 }
 #logo {
   margin: 0px;
-  text-shadow:1px 1px 1px blue ;
+  text-shadow: 1px 1px 1px blue;
   font-family: "Montserrat", sans-serif;
+  text-transform: none;
 }
 ul {
   list-style: none;
@@ -25,3 +27,12 @@ li {
 
 /* font-family: "Raleway", sans-serif; */
 
+#her {
+  height: 800px;
+  width: auto;
+}
+#image {
+  background-image: url(/images/ocean.jpg);
+  background-position: center;
+  background-size:cover ;
+}
