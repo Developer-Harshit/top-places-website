@@ -4,25 +4,49 @@
   min-height: 700px;
   min-width: auto;
 }
-#image {
+/*
+ #image {
   background-image: url(/images/ocean.jpg);
   background-position: center;
   background-size: cover;
-}
+} 
+*/
 #her-mat {
   width: 900px;
   background-color: #04090a72;
   box-shadow: 2px 6px 5px #1c2628bf;
   border-radius: 10px;
   text-align: center;
-  margin: auto;
   font-size: larger;
 
   padding: 10px 0px;
-  margin: 0px auto;
+  margin: auto;
+  padding: auto;
   position: relative;
-  top:225px;
+  top: 225px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 a {
   color: whitesmoke;
+  text-decoration: none;
+}
+#image {
+  background-image: url(/images/ocean.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+}
+nav li {
+  color: #00bbff;
+  border: 1px solid #0000006c;
+  background-color: #00000050;
+  border-radius: 10px;
+  align-items: baseline;
+  font-weight: 700;
+}
+ul a:hover {
+  color: #1fdae4;
+  color: red;
 }
