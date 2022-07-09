@@ -5,7 +5,7 @@
   min-width: auto;
 }
 /*
- #image {
+ #bgimage {
   background-image: url(/images/ocean.jpg);
   background-position: center;
   background-size: cover;
@@ -32,7 +32,7 @@ a {
   color: whitesmoke;
   text-decoration: none;
 }
-#image {
+#bgimage {
   background-image: url(/images/ocean.jpg);
   background-position: center;
   background-size: cover;
@@ -49,4 +49,9 @@ nav li {
 ul a:hover {
   color: #1fdae4;
   color: red;
+}
+#image {
+  width: 100px;
+  display: flexbox;
+  flex-direction: column;
 }
