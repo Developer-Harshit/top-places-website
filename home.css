@@ -26,6 +26,7 @@ header {
   justify-content: space-between;
   display: flex;
   align-self: baseline;
+  position: absolute;
 }
 #hero-box a{
  font-weight: 900;

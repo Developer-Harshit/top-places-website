@@ -1,7 +1,16 @@
+main {
+    color: #ffffff;
+}
 footer {
   background-color: #06b4b1;
 }
-
+main li div {
+    color: #141c1d;
+    background-color: white;
+}
+main li div a{
+    color: #141c1d;
+}
 /* 
 contains colors and font related css code
  */
